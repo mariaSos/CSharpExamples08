@@ -36,7 +36,7 @@ void PrintMatrix(int[,] matrix)
         System.Console.WriteLine();
     }
 }
-
+//Сортировка строк массива по убыванию
 void SortMatrix(int[,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
